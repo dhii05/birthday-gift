@@ -17,7 +17,7 @@ function typeWriter() {
     if (i < text.length) {
         document.getElementById("message").innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeWriter, 50); // Kelajuan taip (50ms)
+        setTimeout(typeWriter, 50);
     } else {
         confetti({
             particleCount: 50,
